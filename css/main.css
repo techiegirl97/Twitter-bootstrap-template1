@@ -1,0 +1,62 @@
+/* Christina Fleming - Frontend Coder */
+
+
+@media screen {
+/*customized bootstrap styles*/
+body, h1, h2, h3, ul, li, p {margin: 0; padding: 0;}
+h1, .brand {text-transform: lowercase;}
+h1 {color: #D8FF9E; /*padding: 16px; margin-left: 17px;*/ font-weight: normal;}
+body {background-color: #263F00; font-family: Arial, Helvetica, sans-serif;}
+h1, h2, h3 {font-family: Georgia, Times New Roman, Times, serif;}
+h2 {font-weight: normal; color: #000; font-variant: small-caps;}
+h3 {font-weight: normal; color: #DEFF9E;}
+
+.page-header {background: url("../img/img03.jpg") no-repeat top right; height: 140px; border: 0; margin: 0;}
+.nav {color: white; margin-left: 30px;}
+.nav li a {color: white;}
+.nav li a:hover {color: black;}
+.nav-pills .active a, .nav-pills .active a:hover {background-color: #71AE15;}
+.container {margin: 0 auto; position: relative; width: 80%;}
+
+/*classes unique to natures point*/
+/* content area */
+.naturecontent {background-color: #71AE15; padding: 20px; position: absolute; left: 200px;}
+.naturecontent p {color: white;}
+.naturecontent .naturebutton {color: #131F00; font-size: .9em; background-color: #D8FF9E; display: block; width: 91px; margin: 20px 0; padding: 7px; text-align: center; text-transform: uppercase;}
+.naturecontent .naturebutton a {text-decoration: none; color: #131F00;}
+
+/* left nav */
+.natureleftnav {width: 200px; background-color: #263F00; position: absolute;}
+.natureleftnav ul {margin-left: 0;}
+.natureleftnav li {line-height: 35px; border-bottom: 1px #D8FF9E dashed;}
+
+}
+
+/*tablet landscape view*/
+@media screen and (max-width: 1023px) {
+
+
+}
+
+/*tablet portrait view*/
+@media screen and (max-width: 759px) {
+
+.container {width: 100%;}
+.naturecontent {width: 90%; position: static;}
+.natureleftnav {width: 90%; position: static;}
+}
+
+/*iPhone view*/
+@media screen and (max-width: 480px) {
+.page-header {background: #263F00; height: auto;}
+.nav-pills li {float: none;}
+.nav {margin: 0;}
+}
+
+@media print {
+.nav {display: none;}
+.natureleftnav {display: none;}
+}
+
+
+
